@@ -1,2 +1,2 @@
 # Sensing-Time-Calculation-from-the-Eye-Tracker-Videos
-This repository contains Python code for calculation of the sensing time (ST) parameters from the eye-tracker videos.
+This repository contains Python code for calculation of the sensing time (ST) parameters from the eye-tracker videos. Also, the repository contains a sample eye tracker data video for the preprint shared on arXiv and titled "Sensing Time Effectiveness for Fitness to Drive Evaluation in Neurological Patients" authored by Nadica Miljković, Nebojša Jovanović, and Jaka Sodnik.
