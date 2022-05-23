@@ -10,10 +10,13 @@ If you find these parameters and R code useful for your own research and teachin
 3) Motnikar, L., Stojmenova, K., Štaba, U. Č., Klun, T., Robida, K. R., & Sodnik, J. (2020). Exploring driving characteristics of fit-and unfit-to-drive neurological patients: A driving simulator study. Traffic Injury Prevention, 21(6), 359-364. https://doi.org/10.1080/15389588.2020.1764547
 
 ## GitHub repo contents
-1) readme file
-2) Python code (pending)
-3) sample eye tracker video (pending)
-4) license (GNU GPL v3.0)
+1) license (GNU GPL v3.0)
+2) readme file
+3) extract_frames.py - Python code for video preprocessing
+4) requirements.txt - versions of used Python packages for appropriate reproducibility of results
+5) sensing-time.py - Python code for calculating ST parameter
+6) user_1.mp4 -  a silent video (sound is not provided due to the data anonimization) of a collision in user with ID = 1
+7) yolo5s.pt - PyTorch file for YOLO (You Only Look Once) application
 
 ## Disclaimer
 The Python code is provided without any guarantee and it is not intended for medical purposes.
