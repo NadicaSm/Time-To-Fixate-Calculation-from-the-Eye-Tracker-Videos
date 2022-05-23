@@ -30,10 +30,12 @@ for frame in tqdm(range(0,N_FRAMES)):
     results = model(img)
     labels, cord_thres = results.xyxyn[0][:, -1].numpy(), results.xyxyn[0][:, :-1].numpy() 
 
+    # Check if the person is in labels
     if (0 in labels):
         
         cords_p = cord_thres[labels == 0, :][0]
 
+        # Check if the person and bus are in labels
         if list(labels) == [0,2]:
             cords_b = cord_thres[labels == 2, :][0]
         else: cords_b = [0,0,0,0]
@@ -44,7 +46,8 @@ for frame in tqdm(range(0,N_FRAMES)):
         if np.isnan(tx[2*frame]):
             tx[2*frame] = tx[2*frame - 1]
             ty[2*frame] = ty[2*frame - 1]
-    
+
+        # Check if the person is in front of the bus
         if  (xmax < cords_b[2]) and (ymax > cords_b[3]) and (flag == 0):
             start_frame = frame
             flag = 1
@@ -60,3 +63,5 @@ for frame in tqdm(range(0,N_FRAMES)):
 #%% Calculate ST
 sensing_time = (end_frame - start_frame)*1000/fps # in ms
 print(sensing_time)
+
+# %%
