@@ -15,7 +15,7 @@ If you find these parameters and R code useful for your own research and teachin
 3) extract_frames.py - Python code for video preprocessing
 4) requirements.txt - versions of used Python packages for appropriate reproducibility of results
 5) sensing-time.py - Python code for calculating ST parameter
-6) user_1.mp4 -  a silent video (sound is not provided due to the data anonimization) of a collision in user with ID = 1
+6) user_1.mp4 -  a silent video (sound is not provided due to the data anonimization) of a selected collision in driving simulation in user with ID = 1 (fit-to-drive)
 7) yolo5s.pt - PyTorch file for YOLO (You Only Look Once) application
 
 ## Disclaimer
