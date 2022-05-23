@@ -60,8 +60,7 @@ for frame in tqdm(range(0,N_FRAMES)):
         if flag == 2:
             break;
 
+
 #%% Calculate ST
 sensing_time = (end_frame - start_frame)*1000/fps # in ms
 print(sensing_time)
-
-# %%
