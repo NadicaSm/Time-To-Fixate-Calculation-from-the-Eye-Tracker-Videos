@@ -10,16 +10,16 @@ If you find these parameters and R code useful for your own research and teachin
 3) Motnikar, L., Stojmenova, K., Štaba, U. Č., Klun, T., Robida, K. R., & Sodnik, J. (2020). Exploring driving characteristics of fit-and unfit-to-drive neurological patients: A driving simulator study. Traffic Injury Prevention, 21(6), 359-364. https://doi.org/10.1080/15389588.2020.1764547
 
 ## GitHub repo contents
-1) data/user_1 folder - contains user_1_raw.csv file with relevant data from the Tobii Pro Glasses 2 (Tobii Llc., Stockholm, Sweden) Eye Tracker
-2) video/user_1 folder - contains all frames for user_1 (ID = 1) for collision scene
-3) license (GNU GPL v3.0)
-4) readme file
-5) extract_frames.py - Python code for video preprocessing
-6) parameter_table.py - Python code for creating data table parameters (please, note that parameters were added manually as we could not share the whole dataset)
-7) requirements.txt - versions of used Python packages for appropriate reproducibility of results and for YOLO (You Only Look Once) application
-8) sensing-time.py - Python code for calculating ST parameter
-9) user_1.mp4 -  a silent video (sound is not provided due to the data anonimization) of a selected collision in driving simulation in user with ID = 1 (fit-to-drive)
-10) yolo5s.pt - PyTorch file for YOLO (You Only Look Once) application
+1) [data/user_1](https://github.com/NadicaSm/Sensing-Time-Calculation-from-the-Eye-Tracker-Videos/tree/main/data/user_1) folder - contains user_1_raw.csv file with relevant data from the Tobii Pro Glasses 2 (Tobii Llc., Stockholm, Sweden) Eye Tracker
+2) [video/user_1](https://github.com/NadicaSm/Sensing-Time-Calculation-from-the-Eye-Tracker-Videos/tree/main/video/user_1) folder - contains all frames for user_1 (ID = 1) for collision scene extracted by extract_frames.py code
+3) [license](https://github.com/NadicaSm/Sensing-Time-Calculation-from-the-Eye-Tracker-Videos/blob/main/LICENSE) (GNU GPL v3.0)
+4) [readme](https://github.com/NadicaSm/Sensing-Time-Calculation-from-the-Eye-Tracker-Videos/blob/main/README.md) file
+5) [extract_frames.py](https://github.com/NadicaSm/Sensing-Time-Calculation-from-the-Eye-Tracker-Videos/blob/main/extract_frames.py) - Python code for video preprocessing
+6) [parameter_table.py](https://github.com/NadicaSm/Sensing-Time-Calculation-from-the-Eye-Tracker-Videos/blob/main/parameter_table.py) - Python code for creating data table parameters (please, note that parameters were added manually as we could not share the whole dataset)
+7) [requirements.txt](https://github.com/NadicaSm/Sensing-Time-Calculation-from-the-Eye-Tracker-Videos/blob/main/requirements.txt) - versions of used Python packages for appropriate reproducibility of results and for YOLO (You Only Look Once) application
+8) [sensing-time.py](https://github.com/NadicaSm/Sensing-Time-Calculation-from-the-Eye-Tracker-Videos/blob/main/sensing-time.py) - Python code for calculating ST parameter
+9) [user_1.mp4](https://github.com/NadicaSm/Sensing-Time-Calculation-from-the-Eye-Tracker-Videos/blob/main/user_1.mp4) -  a silent video (sound is not provided due to the data anonimization) of a selected collision in driving simulation in user with ID = 1 (fit-to-drive)
+10) [yolo5s.pt](https://github.com/NadicaSm/Sensing-Time-Calculation-from-the-Eye-Tracker-Videos/blob/main/yolov5s.pt) - PyTorch file for YOLO (You Only Look Once) application
 
 ## Disclaimer
 The Python code is provided without any guarantee and it is not intended for medical purposes.
