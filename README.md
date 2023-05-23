@@ -5,7 +5,7 @@ The current repository presents a supplementary code for the preprint titled "Ef
 
 If you find these parameters and R code useful for your own research and teaching class, please cite the following references:
 
-1) Miljković, N., & Sodnik, J. (2023). NadicaSm/Time-To-Fixate-Calculation-from-the-Eye-Tracker-Videos (v1.0.0). [Software code], Zenodo. https://doi.org/10.5281/zenodo.6560419
+1) Miljković, N., & Sodnik, J. (2023). NadicaSm/Time-To-Fixate-Calculation-from-the-Eye-Tracker-Videos: v2. [Software code], Zenodo. https://doi.org/10.5281/zenodo.6560419
 2) Miljković, N., & Sodnik, J. (2023, May). Sensing Time Effectiveness for Fitness to Drive Evaluation in Neurological Patients. Preprint in arXiv (pp. 1-23). https://doi.org/10.48550/arXiv.2205.08942
 3) Motnikar, L., Stojmenova, K., Štaba, U. Č., Klun, T., Robida, K. R., & Sodnik, J. (2020). Exploring driving characteristics of fit-and unfit-to-drive neurological patients: A driving simulator study. Traffic Injury Prevention, 21(6), 359-364. https://doi.org/10.1080/15389588.2020.1764547
 
