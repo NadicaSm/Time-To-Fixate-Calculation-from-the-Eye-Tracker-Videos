@@ -1,7 +1,7 @@
 # Time-To-Fixate-Calculation-from-the-Eye-Tracker-Videos
 This repository contains Python code for calculation of the time to fixate (TTF) parameters from the eye-tracker videos recorded during driving simulation in [Nervtech](https://www.nervtech.com/) simulator. Also, the repository contains a sample eye tracker data video.
 
-The current repository presents a supplementary code for the preprint titled "Effectiveness of a Time to Fixate for Fitness to Drive Evaluation in Neurological Patients" and shared on [arXiv](https://arxiv.org/ftp/arxiv/papers/2205/2205.08942.pdf) authored by Nadica Miljković and Jaka Sodnik.
+The current repository presents a supplementary code for the preprint titled "Effectiveness of a Time to Fixate for Fitness to Drive Evaluation in Neurological Patients" and shared on [arXiv](https://arxiv.org/ftp/arxiv/papers/2205/2205.08942.pdf) authored by Nadica Miljković and Jaka Sodnik (currently under review).
 
 If you find these parameters and R code useful for your own research and teaching class, please cite the following references:
 
