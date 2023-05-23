@@ -32,7 +32,6 @@ for frame in tqdm(range(0,N_FRAMES)):
 
     # Check if the person is in labels
     if (0 in labels):
-        
         cords_p = cord_thres[labels == 0, :][0]
 
         # Check if the person and bus are in labels
@@ -60,7 +59,6 @@ for frame in tqdm(range(0,N_FRAMES)):
         if flag == 2:
             break;
 
-
-#%% Calculate ST
-sensing_time = (end_frame - start_frame)*1000/fps # in ms
-print(sensing_time)
+#%% Calculate TTF
+ttf = (end_frame - start_frame)*1000/fps # in ms
+print(ttf)
