@@ -17,7 +17,7 @@ If you find these parameters and R code useful for your own research and teachin
 5) [extract_frames.py](https://github.com/NadicaSm/Time-To-Fixation-Calculation-from-the-Eye-Tracker-Videos/blob/main/extract_frames.py) - Python code for video preprocessing
 7) [parameter_table.py](https://github.com/NadicaSm/Time-To-Fixation-Calculation-from-the-Eye-Tracker-Videos/blob/main/parameter_table.py) - Python code for creating data table parameters (please, note that parameters were added manually as we could not share the whole dataset)
 8) [requirements.txt](https://github.com/NadicaSm/Time-To-Fixation-Calculation-from-the-Eye-Tracker-Videos/blob/main/requirements.txt) - versions of used Python packages for appropriate reproducibility of results and for YOLO (You Only Look Once) application
-9) [sensing-time.py](https://github.com/NadicaSm/Time-To-Fixation-Calculation-from-the-Eye-Tracker-Videos/blob/main/sensing-time.py) - Python code for calculating TTF parameter
+9) [ttf.py](https://github.com/NadicaSm/Time-To-Fixation-Calculation-from-the-Eye-Tracker-Videos/blob/main/sensing-time.py) - Python code for calculating TTF parameter
 10) [user_1.mp4](https://github.com/NadicaSm/Time-To-Fixation-Calculation-from-the-Eye-Tracker-Videos/blob/main/user_1.mp4) -  a silent video (sound is not provided due to the data anonimization) of a selected collision in driving simulation in user with ID = 1 (fit-to-drive)
 11) [yolo5s.pt](https://github.com/NadicaSm/Time-To-Fixation-Calculation-from-the-Eye-Tracker-Videos/blob/main/yolov5s.pt) - PyTorch file for YOLO (You Only Look Once) application
 
