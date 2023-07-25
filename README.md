@@ -1,12 +1,12 @@
 # Time-To-Fixate-Calculation-from-the-Eye-Tracker-Videos
 This repository contains Python code for calculation of the time to fixate (TTF) parameters from the eye-tracker videos recorded during driving simulation in [Nervtech](https://www.nervtech.com/) simulator. Also, the repository contains a sample eye tracker data video.
 
-The current repository presents a supplementary code for the preprint titled "Effectiveness of a Time to Fixate for Fitness to Drive Evaluation in Neurological Patients" and authored by Nadica Miljković and Jaka Sodnik (currently in print in [Behavior Research Methods](https://www.springer.com/journal/13428) and previously shared on [arXiv](https://arxiv.org/ftp/arxiv/papers/2205/2205.08942.pdf)).
+The current repository presents a supplementary code for the preprint titled "[Effectiveness of a Time to Fixate for Fitness to Drive Evaluation in Neurological Patients](https://doi.org/10.3758/s13428-023-02177-3)" and authored by Nadica Miljković and Jaka Sodnik (published in [Behavior Research Methods](https://www.springer.com/journal/13428) and previously shared on [arXiv](https://arxiv.org/ftp/arxiv/papers/2205/2205.08942.pdf)).
 
 If you find these parameters and R code useful for your own research and teaching class, please cite the following references:
 
 1) Miljković, N., & Sodnik, J. (2023). NadicaSm/Time-To-Fixate-Calculation-from-the-Eye-Tracker-Videos: v2. [Software code], Zenodo. https://doi.org/10.5281/zenodo.6560419
-2) Miljković, N., & Sodnik, J. (2023). Sensing Time Effectiveness for Fitness to Drive Evaluation in Neurological Patients. Behavior Research Methods. in print
+2) Miljković, N., & Sodnik, J. (2023). Effectiveness of a time to fixate for fitness to drive evaluation in neurological patients. Behavior Research Methods. https://doi.org/10.3758/s13428-023-02177-3
 3) Motnikar, L., Stojmenova, K., Štaba, U. Č., Klun, T., Robida, K. R., & Sodnik, J. (2020). Exploring driving characteristics of fit-and unfit-to-drive neurological patients: A driving simulator study. Traffic Injury Prevention, 21(6), 359-364. https://doi.org/10.1080/15389588.2020.1764547
 
 ## GitHub repo contents
